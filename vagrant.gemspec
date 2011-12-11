@@ -16,7 +16,7 @@ Gem::Specification.new do |s|
 
   s.add_dependency "archive-tar-minitar", "= 0.5.2"
   s.add_dependency "erubis", "~> 2.7.0"
-  s.add_dependency "json", "~> 1.5.1"
+  s.add_dependency "json", "~> 1.6.1"
   s.add_dependency "net-ssh", "~> 2.1.4"
   s.add_dependency "net-scp", "~> 1.0.4"
   s.add_dependency "i18n", "~> 0.6.0"
