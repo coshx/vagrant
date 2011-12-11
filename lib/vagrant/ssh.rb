@@ -119,7 +119,7 @@ module Vagrant
           # We run a basic command to test that the shell is up and
           # ready to receive commands. Only then is our SSH connection
           # truly "up"
-          return ssh.exec!("echo hello") == "hello\n"
+          return ssh.exec!("echo hello") =~ /^hello/
         end
       end
 
